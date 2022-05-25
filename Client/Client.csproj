@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+﻿<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -16,12 +16,7 @@
     <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 	
-	<ItemGroup>
-		<Folder Include="wwwroot\assets\img\other\" />
-		<Folder Include="wwwroot\assets\img\publicbackgrounds\" />
-	</ItemGroup>
-	
-  <ItemGroup>u
+  <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
 
