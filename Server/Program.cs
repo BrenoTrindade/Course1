@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
 app.UseSwagger();
 app.UseSwaggerUI(swaggerUIOptions =>
 {
-    swaggerUIOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "JohnDoeServer API");
+    swaggerUIOptions.SwaggerEndpoint("/swagger/v1/swagger.json", "BrenoTrindade API");
     swaggerUIOptions.RoutePrefix = string.Empty;
 });
 
