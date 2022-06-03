@@ -112,7 +112,7 @@ namespace Server.Controllers
                     return BadRequest(ModelState);
                 }
 
-                await _dataContext.Categories.AddAsync(updatedCategory);
+                _dataContext.Categories.Update(updatedCategory);
 
                 bool changesPersistedToDatabase = await PersistChangesToDatabase();
 
